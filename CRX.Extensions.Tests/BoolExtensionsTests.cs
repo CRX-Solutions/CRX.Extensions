@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CRX.Extensions.Tests
 {
     [TestClass]
-    public class BoolExtensionsTest
+    public class BoolExtensionsTests
     {
         [TestMethod]
         [DataRow(true, "Yes", DisplayName = "Returns Yes")]
