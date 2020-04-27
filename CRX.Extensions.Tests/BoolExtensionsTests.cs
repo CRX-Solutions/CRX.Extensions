@@ -6,8 +6,8 @@ namespace CRX.Extensions.Tests
     public class BoolExtensionsTests
     {
         [TestMethod]
-        [DataRow(true, "Yes", DisplayName = "Returns Yes")]
-        [DataRow(false, "No", DisplayName = "Returns No")]
+        [DataRow(true, "Yes", DisplayName = "True boolean value")]
+        [DataRow(false, "No", DisplayName = "False boolean value")]
         public void ToYesNo_Bool_ReturnsYesOrNoAccordingToInput(bool input, string expectedResult)
         {
             // Act

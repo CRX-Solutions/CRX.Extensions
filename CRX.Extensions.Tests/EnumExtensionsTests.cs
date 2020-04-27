@@ -16,12 +16,10 @@ namespace CRX.Extensions.Tests
         }
 
         [TestMethod]
-        [DataRow(TestEnum.Item1, "Item1", DisplayName = "")]
-        [DataRow(TestEnum.Item_2, "Item 2", DisplayName = "")]
+        [DataRow(TestEnum.Item1, "Item1", DisplayName = "Enum item without underscores")]
+        [DataRow(TestEnum.Item_2, "Item 2", DisplayName = "Enum item with underscores")]
         public void ToDisplay_Enum_ShouldReturnTheExpectedResult(Enum input, string expectedResult)
         {
-            // Arrange
-
             // Act
             var result = input.ToDisplay();
 
