@@ -2,6 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Justin</Authors>
+    <Company>CRX Solutions Malta</Company>
+    <Description>Useful extensions for your .Net project</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>extensions, .net</PackageTags>
+    <PackageIcon>GitHub-Logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="assets\GitHub-Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
