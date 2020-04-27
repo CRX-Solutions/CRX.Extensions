@@ -15,11 +15,5 @@ namespace CRX.Extensions
 
             return Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(value);
         }
-
-        public static string ToLettersOnly(this string value)
-        {
-            var regex = new Regex("[^a-zA-Z]");
-            return regex.Replace(value, "");
-        }
     }
 }
