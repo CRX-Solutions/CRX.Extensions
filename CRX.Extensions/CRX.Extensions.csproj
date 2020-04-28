@@ -10,6 +10,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>extensions, .net</PackageTags>
     <PackageIcon>GitHub-Logo.png</PackageIcon>
+    <Version>1.0.1</Version>
+    <RepositoryUrl>https://github.com/CRX-Solutions/CRX.Extensions</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CRX.Extensions</id>
+    <version>1.0.0</version>
+    <authors>Justin</authors>
+    <owners>Justin</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>GitHub-Logo.png</icon>
+    <description>Useful extensions for your .Net project</description>
+    <tags>extensions, .net</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\justinborg\Desktop\Justin Training\1. Projects\Blazor Components\CRXExtensions\CRX.Extensions\bin\Release\netcoreapp3.1\CRX.Extensions.dll" target="lib\netcoreapp3.1\CRX.Extensions.dll" />
+    <file src="C:\Users\justinborg\Desktop\Justin Training\1. Projects\Blazor Components\CRXExtensions\CRX.Extensions\assets\GitHub-Logo.png" target="GitHub-Logo.png" />
+  </files>
+</package>

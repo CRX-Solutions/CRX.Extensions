@@ -1635,7 +1635,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CRX.Extensions/1.0.0": {
+      "CRX.Extensions/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
@@ -5650,7 +5650,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CRX.Extensions/1.0.0": {
+    "CRX.Extensions/1.0.1": {
       "type": "project",
       "path": "../CRX.Extensions/CRX.Extensions.csproj",
       "msbuildProject": "../CRX.Extensions/CRX.Extensions.csproj"
@@ -5658,7 +5658,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CRX.Extensions >= 1.0.0",
+      "CRX.Extensions >= 1.0.1",
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.6.1",
