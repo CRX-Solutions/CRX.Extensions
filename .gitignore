@@ -2,7 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-CRX.Extensions/bin/Debug
+CRX.Extensions/bin/Debug/
+CRX.Extensions/obj/Debug/
 CRX.Extensions.Tests/bin/
+CRX.Extensions.Tests/obj/
 TestResults/
 .vs/
