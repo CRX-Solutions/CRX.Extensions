@@ -25,4 +25,4 @@ jobs:
       working-directory: ./
       run: |
         dotnet pack --configuration Release
-        dotnet nuget push "bin/Release/CRX.Extensions.1.0.0.nupkg" --source "github"
+        dotnet nuget push "bin/Release/CRX.Extensions.1.0.0.nupkg" --source "https://github.com/CRX-Solutions/CRX.Extensions/tree/master/CRX.Extensions/bin/Release"
