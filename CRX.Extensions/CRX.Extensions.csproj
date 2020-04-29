@@ -12,6 +12,8 @@
     <PackageIcon>GitHub-Logo.png</PackageIcon>
     <Version>1.0.1</Version>
     <RepositoryUrl>https://github.com/CRX-Solutions/CRX.Extensions</RepositoryUrl>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
